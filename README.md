@@ -1,8 +1,6 @@
 # Series RLC Resonant Filter — Design & LTspice Simulation
 
-A series RLC resonant filter designed by hand, simulated in LTspice, and documented against its analytical predictions. The design targets a resonant frequency of **50 kHz** with a quality factor of **~31.6**.
-
-This is the circuits-fundamentals portfolio project from my RF/PCB learning roadmap: design a passive resonant circuit, predict its behavior from first principles, and confirm it in a simulator.
+A series RLC resonant filter designed, simulated in LTspice, and documented against its analytical predictions. The design targets a resonant frequency of **50 kHz** with a quality factor of **~31.6**.
 
 ---
 
@@ -92,12 +90,12 @@ The simulation matches the hand analysis across every metric, confirming both th
 
 ---
 
-## What this demonstrates
+## Key findings
 
-- Reading and analyzing a passive RLC circuit and its impedance behavior.
-- Predicting resonance, Q, and bandwidth from component values before touching a tool.
-- Driving an AC frequency sweep in LTspice and interpreting magnitude/phase Bode plots.
-- Recognizing that output placement (across L–C vs across R) determines notch vs bandpass — the same resonance, two complementary filter functions.
+- Analysis of passive RLC circuit impedance behavior and resonance.
+- Resonant frequency, Q-factor, and bandwidth calculated from component values.
+- AC frequency sweep simulation with magnitude/phase Bode plots in LTspice.
+- Output placement (across L–C vs across R) determines notch vs bandpass response — the same resonance yields two complementary filter functions.
 
 ---
 
