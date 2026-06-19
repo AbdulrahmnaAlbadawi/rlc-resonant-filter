@@ -25,7 +25,7 @@ Vin --- R1 --- [out] --- L1 --- C1 --- GND
 ```
 
 *(See `schematic.png`.)*
-
+/docs.schematic
 ### Component values
 
 | Component | Value | Role |
