@@ -24,7 +24,7 @@ Vin --- R1 --- [out] --- L1 --- C1 --- GND
 (AC 1)  100Ω           10mH    1nF
 ```
 
-![RLC](/docs.schematic.png)
+![RLC](docs/schematic.png)
 ### Component values
 
 | Component | Value | Role |
@@ -72,7 +72,7 @@ A higher Q (smaller R) gives a narrower, sharper response; a lower Q (larger R) 
 
 ## Results
 
-![RLC](/docs.result.png)
+![RLC](docs/result.png)
 
 
 The simulated magnitude response shows a deep, narrow notch centered on ~50 kHz at the `V(out)` node, flat near 0 dB elsewhere — exactly the band-stop behavior predicted. The complementary `V(in)−V(out)` trace peaks at the same frequency, giving the bandpass response.
